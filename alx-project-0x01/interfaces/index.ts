@@ -7,7 +7,7 @@ export interface PostProps {
 }
 
 export interface UserProps {
-    id:       number;
+    id: number;
     name:     string;
     username: string;
     email:    string;
@@ -19,7 +19,7 @@ export interface UserProps {
 }
 
 export interface Address {
-    street:  string;
+    street: string;
     suite:   string;
     city:    string;
     zipcode: string;
