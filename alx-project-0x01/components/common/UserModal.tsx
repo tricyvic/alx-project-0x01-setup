@@ -1,7 +1,7 @@
 import { UserData, UserModalProps } from '@/interfaces'
 import React, { useState } from 'react'
 
-const UserModal:React.FC<UserModalProps> = ({ onClose , onSubmit} ) => {
+const UserModal:React.FC<UserModalProps> = ({onClose,onSubmit}) => {
     const [user, setUser] = useState<UserData>({
         id: 1,
         name: "John Doe",
